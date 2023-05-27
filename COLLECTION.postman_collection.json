@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "728c59a5-b018-4c55-83a2-ab70ddf6ecb4",
+		"name": "COLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"salesman\":[\r\n  {\r\n    \"salesman_id\": 1,\r\n    \"name\": \"Benita\",\r\n    \"area\": \"Koramangala\",\r\n    \"commission_rate\": 900\r\n  },\r\n  {\r\n    \"salesman_id\": 2,\r\n    \"name\": \"Brietta\",\r\n    \"area\": \"Mysore Road\",\r\n    \"commission_rate\": 5\r\n  },\r\n  {\r\n    \"salesman_id\": 3,\r\n    \"name\": \"Ninnetta\",\r\n    \"area\": \"Pattanagere\",\r\n    \"commission_rate\": 2\r\n  },\r\n  {\r\n    \"salesman_id\": 4,\r\n    \"name\": \"Vevay\",\r\n    \"area\": \"Marathahalli\",\r\n    \"commission_rate\": 5\r\n  },\r\n  {\r\n    \"salesman_id\": 5,\r\n    \"name\": \"Dorene\",\r\n    \"area\": \"Mysore Road\",\r\n    \"commission_rate\": 2\r\n  },\r\n  {\r\n    \"salesman_id\": 6,\r\n    \"name\": \"Lily\",\r\n    \"area\": \"Kengeri\",\r\n    \"commission_rate\": 5\r\n  },\r\n  {\r\n    \"salesman_id\": 7,\r\n    \"name\": \"Genovera\",\r\n    \"area\": \"Deepanjali Nagar\",\r\n    \"commission_rate\": 3\r\n  },\r\n  {\r\n    \"salesman_id\": 8,\r\n    \"name\": \"Jerry\",\r\n    \"area\": \"Deepanjali Nagar\",\r\n    \"commission_rate\": 2\r\n  },\r\n  {\r\n    \"salesman_id\": 9,\r\n    \"name\": \"Edith\",\r\n    \"area\": \"Pattanagere\",\r\n    \"commission_rate\": 2\r\n  },\r\n  {\r\n    \"salesman_id\": 10,\r\n    \"name\": \"Margarette\",\r\n    \"area\": \"Deepanjali Nagar\",\r\n    \"commission_rate\": 3\r\n  }\r\n],\r\n\r\n\"product\":[\r\n  {\r\n    \"product_name\": \"Product1\",\r\n    \"quantity\": 135,\r\n    \"mrp_per_unit\": 3,\r\n    \"salesman_id\": 8\r\n  },\r\n  {\r\n    \"product_name\": \"Product2\",\r\n    \"quantity\": 483,\r\n    \"mrp_per_unit\": 24,\r\n    \"salesman_id\": 7\r\n  },\r\n  {\r\n    \"product_name\": \"Product3\",\r\n    \"quantity\": 422,\r\n    \"mrp_per_unit\": 14,\r\n    \"salesman_id\": 7\r\n  },\r\n  {\r\n    \"product_name\": \"Product4\",\r\n    \"quantity\": 438,\r\n    \"mrp_per_unit\": 15,\r\n    \"salesman_id\": 6\r\n  },\r\n  {\r\n    \"product_name\": \"Product5\",\r\n    \"quantity\": 382,\r\n    \"mrp_per_unit\": 20,\r\n    \"salesman_id\": 6\r\n  },\r\n  {\r\n    \"product_name\": \"Product6\",\r\n    \"quantity\": 266,\r\n    \"mrp_per_unit\": 19,\r\n    \"salesman_id\": 5\r\n  },\r\n  {\r\n    \"product_name\": \"Product7\",\r\n    \"quantity\": 415,\r\n    \"mrp_per_unit\": 11,\r\n    \"salesman_id\": 2\r\n  },\r\n  {\r\n    \"product_name\": \"Product8\",\r\n    \"quantity\": 363,\r\n    \"mrp_per_unit\": 22,\r\n    \"salesman_id\": 4\r\n  },\r\n  {\r\n    \"product_name\": \"Product9\",\r\n    \"quantity\": 224,\r\n    \"mrp_per_unit\": 25,\r\n    \"salesman_id\": 5\r\n  },\r\n  {\r\n    \"product_name\": \"Product10\",\r\n    \"quantity\": 280,\r\n    \"mrp_per_unit\": 25,\r\n    \"salesman_id\": 3\r\n  },\r\n  {\r\n    \"product_name\": \"Product11\",\r\n    \"quantity\": 342,\r\n    \"mrp_per_unit\": 21,\r\n    \"salesman_id\": 8\r\n  },\r\n  {\r\n    \"product_name\": \"Product12\",\r\n    \"quantity\": 109,\r\n    \"mrp_per_unit\": 24,\r\n    \"salesman_id\": 4\r\n  },\r\n  {\r\n    \"product_name\": \"Product13\",\r\n    \"quantity\": 397,\r\n    \"mrp_per_unit\": 12,\r\n    \"salesman_id\": 9\r\n  },\r\n  {\r\n    \"product_name\": \"Product14\",\r\n    \"quantity\": 188,\r\n    \"mrp_per_unit\": 20,\r\n    \"salesman_id\": 3\r\n  },\r\n  {\r\n    \"product_name\": \"Product15\",\r\n    \"quantity\": 262,\r\n    \"mrp_per_unit\": 12,\r\n    \"salesman_id\": 7\r\n  },\r\n  {\r\n    \"product_name\": \"Product16\",\r\n    \"quantity\": 328,\r\n    \"mrp_per_unit\": 18,\r\n    \"salesman_id\": 2\r\n  },\r\n  {\r\n    \"product_name\": \"Product17\",\r\n    \"quantity\": 438,\r\n    \"mrp_per_unit\": 9,\r\n    \"salesman_id\": 9\r\n  },\r\n  {\r\n    \"product_name\": \"Product18\",\r\n    \"quantity\": 429,\r\n    \"mrp_per_unit\": 6,\r\n    \"salesman_id\": 10\r\n  },\r\n  {\r\n    \"product_name\": \"Product19\",\r\n    \"quantity\": 342,\r\n    \"mrp_per_unit\": 16,\r\n    \"salesman_id\": 2\r\n  },\r\n  {\r\n    \"product_name\": \"Product20\",\r\n    \"quantity\": 280,\r\n    \"mrp_per_unit\": 10,\r\n    \"salesman_id\": 1\r\n  },\r\n  {\r\n    \"product_name\": \"Product21\",\r\n    \"quantity\": 266,\r\n    \"mrp_per_unit\": 1,\r\n    \"salesman_id\": 8\r\n  },\r\n  {\r\n    \"product_name\": \"Product22\",\r\n    \"quantity\": 109,\r\n    \"mrp_per_unit\": 16,\r\n    \"salesman_id\": 10\r\n  },\r\n  {\r\n    \"product_name\": \"Product23\",\r\n    \"quantity\": 328,\r\n    \"mrp_per_unit\": 23,\r\n    \"salesman_id\": 4\r\n  },\r\n  {\r\n    \"product_name\": \"Product24\",\r\n    \"quantity\": 397,\r\n    \"mrp_per_unit\": 6,\r\n    \"salesman_id\": 9\r\n  },\r\n  {\r\n    \"product_name\": \"Product25\",\r\n    \"quantity\": 429,\r\n    \"mrp_per_unit\": 16,\r\n    \"salesman_id\": 1\r\n  }\r\n]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/sales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"sales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/sales/commission?date=2023-04-07",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"sales",
+						"commission"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2023-04-07"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
